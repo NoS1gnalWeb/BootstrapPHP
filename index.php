@@ -1,24 +1,14 @@
 <?php
         require 'vendor/autoload.php';
 
-        use Bootstrap\Form;
-        use Bootstrap\Bootstrap;
+        use Bootstrap\Navbar;
 
-        $boostrap = new Bootstrap();
-        $form = new Form('#', 'POST');
+        $items = array('home', 'about', 'login');
 
-        // set CSS
-        $boostrap->setCss();
+        $navbar = new Navbar($items);
 
-        // Form
-        $form->FormContain('start');
-                $form->inputDefault('text', 'myUsername', 'username', 'Username', true, 'Your Username', 'off');
-                $form->inputDefault('email', 'myEmail', 'email', 'Email', true, 'Your Email', 'off');
-                $form->inputDefault('password', 'myPassword', 'password', 'Password', true, 'Yout Password', 'off');
-                $form->inputDefault('password', 'myPasswordRetype', 'password_retype', 'Retype your password', false, null, 'off');
-                $form->setSpace();
-                $form->setBtnSubmit('myBtn', 'primary', 'Sign-up');
-        $form->FormContain('end');
+
+        $navbar->listContent();
 
 ?>
 
