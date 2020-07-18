@@ -1,0 +1,54 @@
+[
+    {
+        "name": "alexcaussades/bootstrap",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/alexcaussades/BootstrapPHP.git",
+            "reference": "5cee725e507caea9dde0d7c9cfe7d0b16e2055da"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/alexcaussades/BootstrapPHP/zipball/5cee725e507caea9dde0d7c9cfe7d0b16e2055da",
+            "reference": "5cee725e507caea9dde0d7c9cfe7d0b16e2055da",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5"
+        },
+        "time": "2020-07-14T19:49:55+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "src"
+            ],
+            "psr-4": {
+                "Bootstrap\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Alexcaussades",
+                "email": "alexcaussades@gmail.com",
+                "homepage": "https://alexcaussades.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Bootstrap PHP",
+        "keywords": [
+            "Rapide",
+            "bootstrap",
+            "client",
+            "framework",
+            "http client",
+            "library",
+            "php"
+        ]
+    }
+]

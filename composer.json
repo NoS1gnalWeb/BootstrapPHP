@@ -1,36 +1,5 @@
 {
-    "name": "alexcaussades/bootstrap",
-    "description": "Bootstrap PHP",
-    "type": "library",
-    "keywords": [
-        "framework",
-        "bootstrap",
-        "php",
-        "library",
-        "client",
-        "HTTP client",
-        "Rapide"
-    ],
-    
-    "autoload": {
-        "classmap": ["src"],
-        "psr-4": {
-            "Bootstrap\\": "src"
-        }
-    },
-
-    "require": {"php": ">=5.5"},
-
-    "license": "MIT",
-
-    "authors": [
-        {
-            "name": "Alexcaussades",
-            "email": "alexcaussades@gmail.com",
-            "role": "Developer",
-            "homepage": "https://alexcaussades.com"
-        }
-    ],
-
-    "minimum-stability": "dev"
+    "require": {
+        "alexcaussades/bootstrap": "dev-master"
+    }
 }

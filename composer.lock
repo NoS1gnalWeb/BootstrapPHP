@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8105ed9ba64fde685e0db877024222c3",
+    "packages": [
+        {
+            "name": "alexcaussades/bootstrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexcaussades/BootstrapPHP.git",
+                "reference": "5cee725e507caea9dde0d7c9cfe7d0b16e2055da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexcaussades/BootstrapPHP/zipball/5cee725e507caea9dde0d7c9cfe7d0b16e2055da",
+                "reference": "5cee725e507caea9dde0d7c9cfe7d0b16e2055da",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ],
+                "psr-4": {
+                    "Bootstrap\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexcaussades",
+                    "email": "alexcaussades@gmail.com",
+                    "homepage": "https://alexcaussades.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Bootstrap PHP",
+            "keywords": [
+                "Rapide",
+                "bootstrap",
+                "client",
+                "framework",
+                "http client",
+                "library",
+                "php"
+            ],
+            "time": "2020-07-14T19:49:55+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "alexcaussades/bootstrap": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
